@@ -1,0 +1,40 @@
+body {
+	font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
+	line-height: 1.6;
+	font-weight: 400;
+	font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #222; 
+	background-color: #F4F4F4
+}
+
+#hero img {
+    margin-bottom: 0px;
+    max-width: 100%;
+    height: auto;
+}
+
+.row .column,
+.row .columns,
+.row .column:first-child,
+.row .columns:first-child{
+	margin-left: 1.6em;
+	margin-right: 1.6em;
+}
+
+h4{
+	font-size: 1.6rem;
+	font-weight: 500;
+	letter-spacing: 0.04rem;
+	margin-bottom: 0.2rem;
+	color: #231f20;
+}
+
+.subheadline {
+	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 1.2rem;
+	font-weight: 400;
+	letter-spacing: 0.04rem;
+	color: #bdbbbc;
+	border-bottom: 5px;
+
+}
