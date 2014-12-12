@@ -30,7 +30,7 @@ ul {
 }
 
 .row {
-	margin-bottom: 1.6rem;
+	margin-bottom: 1.4rem;
 }
 
 .row .column,
@@ -68,7 +68,7 @@ ul {
 	border-top: 1px solid #DEDEDE;
 	border-bottom: 1px solid #DEDEDE;
 	padding-bottom: 0.6rem;
-	padding-top: 0.6rem;
+	padding-top: 1.0rem;
 	color: #231f20;
 }
 	.authordetails a {
