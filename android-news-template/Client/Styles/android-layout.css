@@ -7,6 +7,14 @@ body {
 	background-color: #F4F4F4
 }
 
+.cba-font-style-2 {
+	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 1.2rem;
+	font-weight: 400;
+	letter-spacing: 0.04rem;
+	color: #bdbbbc;
+}
+
 #hero img {
     margin-bottom: 0px;
     max-width: 100%;
@@ -17,8 +25,8 @@ body {
 .row .columns,
 .row .column:first-child,
 .row .columns:first-child{
-	margin-left: 1.6em;
-	margin-right: 1.6em;
+	padding-left: 1.6em;
+	padding-right: 1.6em;
 }
 
 h4{
@@ -30,11 +38,16 @@ h4{
 }
 
 .subheadline {
-	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 1.2rem;
-	font-weight: 400;
-	letter-spacing: 0.04rem;
-	color: #bdbbbc;
 	border-bottom: 5px;
-
 }
+
+.authordetails {
+	border-top: 1px solid #DEDEDE;
+	border-bottom: 1px solid #DEDEDE;
+	padding-bottom: 0.6rem;
+	padding-top: 0.6rem;
+	color: #231f20;
+}
+	.authordetails a {
+		color: #231f20;
+	}
