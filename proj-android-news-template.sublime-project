@@ -3,6 +3,9 @@
 	[
 		{
 			"path": "android-news-template"
+		},
+		{
+			"path": "ios-news-template"
 		}
 	]
 }
