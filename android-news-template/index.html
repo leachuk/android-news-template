@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- FONT async load-->
+    <!-- FONT async load-->
   <script type="text/javascript">
   WebFontConfig = {
     google: { families: [ 'Roboto:400,500,700:latin' ] }
@@ -16,33 +16,23 @@
     s.parentNode.insertBefore(wf, s);
   })(); </script>
 
-  <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
   <meta charset="utf-8">
   <title>Your page title here :)</title>
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="Client/Styles/Skeleton2.0.1/css/normalize.css">
   <link rel="stylesheet" href="Client/Styles/Skeleton2.0.1/css/skeleton.css">
   <!--Custom Override CSS-->
   <link rel="stylesheet" href="Client/Styles/android-layout.css">
 
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/favicon.png" />
-
 </head>
 <body>
 
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- Primary Page Layout -->
   <div class="u-full-width container">
     <!--Hero Image-->
     <div class="row">
@@ -103,10 +93,23 @@
         </ul>
       </div>
     </div>
+    <!--Disclaimer-->
+    <div class="row">
+      <div id="disclaimer">
+          <p>This article is intended to provide general information of an educational nature only. It does not have regard to the financial situation or needs of any reader and must not be relied upon as financial product advice.</p>
+      </div>  
+    </div>
 
   </div>
-
-<!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script>
+      window.twttr = (function (d, s, id) {
+          var t, js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src= "https://platform.twitter.com/widgets.js";
+          fjs.parentNode.insertBefore(js, fjs);
+          return window.twttr || (t = { _e: [], ready: function (f) { t._e.push(f) } });
+      }(document, "script", "twitter-wjs"));
+  </script>
 </body>
 </html>
