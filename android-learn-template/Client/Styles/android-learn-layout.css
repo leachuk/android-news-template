@@ -21,6 +21,7 @@ h1, h2, h3, h4 {
 	}
 	h4{
 		font-size: 1.6rem;
+		font-weight: 600;
 	}
 
 p {
@@ -106,7 +107,7 @@ ul {
     display: inline-block;
     *display: inline;   /* IE7 */
     zoom: 1;            /* IE7 */
-    padding: 25px 80px 20px 20px;
+    padding: 15px 80px 10px 20px;
 }
 
 .sdw-learn-banner.sdw-quiz-banner {
