@@ -9,6 +9,9 @@
 		},
 		{
 			"path": "android-learn-template"
+		},
+		{
+			"path": "ios-learn-template"
 		}
 	]
 }
