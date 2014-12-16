@@ -2,7 +2,7 @@ body {
 	font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
 	line-height: 1.6;
 	font-weight: 400;
-	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial ;
+	font-family: "Open+Sans", "Helvetica Neue", Helvetica, Arial ;
 	color: #222; 
 	background-color: #F4F4F4
 }
@@ -21,6 +21,7 @@ h1, h2, h3, h4 {
 	}
 	h4{
 		font-size: 1.6rem;
+		font-weight: 800;
 	}
 
 p {
@@ -44,7 +45,6 @@ ul {
 }
 
 .cba-font-style-2 {
-	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 1.2rem;
 	font-weight: 400;
 	letter-spacing: 0.04rem;
@@ -91,7 +91,6 @@ ul {
     display:block;
     font-size: 26px;
     font-size: 1.8571rem;
-    font-family: "AachenBold", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-align: center;
     text-decoration: none;
 }
@@ -106,7 +105,7 @@ ul {
     display: inline-block;
     *display: inline;   /* IE7 */
     zoom: 1;            /* IE7 */
-    padding: 25px 80px 20px 20px;
+    padding: 15px 80px 15px 20px;
 }
 
 .sdw-learn-banner.sdw-quiz-banner {
