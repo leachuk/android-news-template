@@ -1,0 +1,121 @@
+body {
+	font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
+	line-height: 1.6;
+	font-weight: 400;
+	font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", sans-serif, Helvetica, Arial ;
+	color: #222; 
+	background-color: #F4F4F4
+}
+
+h1, h2, h3, h4 {
+	font-weight: 500;
+	letter-spacing: 0.04rem;
+	margin-bottom: 0.2rem;
+	color: #231f20;
+}
+	h2{
+		font-size: 1.6rem;
+		font-weight: 600;
+		margin-bottom: 0.8rem;
+
+	}
+	h4{
+		font-size: 1.6rem;
+	}
+
+p {
+	margin-bottom: 1.6rem;
+}
+
+ul {
+	list-style: inside;
+}
+
+.row {
+	margin-bottom: 1.4rem;
+}
+
+.row .column,
+.row .columns,
+.row .column:first-child,
+.row .columns:first-child{
+	padding-left: 1.6em;
+	padding-right: 1.6em;
+}
+
+.cba-font-style-2 {
+	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 1.2rem;
+	font-weight: 400;
+	letter-spacing: 0.04rem;
+	color: #bdbbbc;
+}
+
+.article img {
+    margin-bottom: 0px;
+    width: 100%;
+    height: auto;
+}
+.learnheading {
+	border-bottom: 1px solid #DEDEDE;
+	padding-bottom: 1.6rem;
+	padding-top: 1.6rem;
+}
+
+.article td,
+.article th,
+.article table{
+	border: 1px solid #231f20;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+}
+	.article table{
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+#disclaimer {
+    font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 1.0rem;
+	font-weight: 400;
+    color: #231f20;
+}
+
+/************************************************************
+ ** Learn call-to-action banners
+ ************************************************************/
+.sdw-learn-banner {
+    background-color:#F7941E;
+    color:#fff !important;
+    cursor: pointer;
+    display:block;
+    font-size: 26px;
+    font-size: 1.8571rem;
+    font-family: "AachenBold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    text-decoration: none;
+}
+.sdw-learn-banner:hover, .sdw-learn-banner:focus {
+    color:#fff;
+    outline: none;
+    text-decoration: none;
+}
+.sdw-learn-banner span {
+    background: url('/Client/images/learn/learn-cta-arrow.png') no-repeat right center transparent;
+    background-image:none,url('/client/images/learn/learn-cta-arrow.svg');
+    display: inline-block;
+    *display: inline;   /* IE7 */
+    zoom: 1;            /* IE7 */
+    padding: 25px 80px 20px 20px;
+}
+
+.sdw-learn-banner.sdw-quiz-banner {
+    background: url("/client/images/learn/learn-cta-arrow.png") no-repeat 95% center #F7941E;
+    background-image:none,url('/client/images/learn/learn-cta-arrow.svg');
+    background-position: 98% center;
+    background-repeat: no-repeat;
+    margin-bottom: 25px;
+    padding: 10px 0 8px 10px;
+    text-align: left;
+    white-space: nowrap;
+}

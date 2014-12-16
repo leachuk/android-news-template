@@ -6,6 +6,9 @@
 		},
 		{
 			"path": "ios-news-template"
+		},
+		{
+			"path": "android-learn-template"
 		}
 	]
 }
